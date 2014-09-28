@@ -137,13 +137,13 @@
 
         series: {
     regions: [{
-      values: SMS,
+      values: Count,
       scale: ['#428bca', '#FF0000'],
       normalizeFunction: 'polynomial'
     }]
   },
   onRegionLabelShow: function(e, el, code){
-    el.html(el.html()+' (SMS Notification - '+SMS[code]+')');
+    el.html(el.html()+' (Total Population - '+Count[code]+')');
   },
 		
 		regionStyle: {
