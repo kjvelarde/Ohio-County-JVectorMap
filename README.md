@@ -1,4 +1,4 @@
-Ohio-County---JVectorMap
+Ohio-County-JVectorMap
 ========================
 
 An svg map file of ohio counties configured via JVectorMap (http://jvectormap.com/) 
